@@ -71,7 +71,7 @@ const Page = () => {
       <div className="flex justify-center mt-3">
         <div className="flex gap-4">
           <a href="https://polygon-payroll.vercel.app/">
-            <Button className={"cursor-pointer bg-white text-black"}>
+            <Button className={"cursor-pointer bg-[#763CDA] text-white"}>
               Polygon
             </Button>
           </a>

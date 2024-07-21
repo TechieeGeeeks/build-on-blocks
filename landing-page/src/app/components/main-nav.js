@@ -10,7 +10,7 @@ const MainNav = ({ items, isVisible, isOpen, setIsOpen }) => {
       <nav className="flex md:flex-row flex-col gap-6">
         <Link
           href={"/"}
-          className={cn("flex items-center text-2xl font-bold")}
+          className={cn("flex items-center text-2xl")}
         >
           Payroll Protocol
         </Link>
