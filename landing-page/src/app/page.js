@@ -37,9 +37,9 @@ const Page = () => {
           </span>
         </h2>
         <p className="max-w-[700px] w-full text-lg  text-center">
-          Easily withdraw your funds with Payroll Protocol. Our secure
-          blockchain-based system ensures that all transactions are encrypted
-          and transparent.
+          Easily distribute your funds with Payroll Protocol. Our secure
+          privacy-focused system ensures that all payments are encrypted and
+          transparent.
         </p>
         {/* <Badge
           className={
