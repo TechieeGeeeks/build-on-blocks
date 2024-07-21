@@ -28,7 +28,7 @@ export function SiteHeader() {
                   />
                 </a>
                 <a
-                  href="https://github.com/vwakesahu/build-on-blocks"
+                  href="https://github.com/TechieeGeeeks/build-on-blocks"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex"

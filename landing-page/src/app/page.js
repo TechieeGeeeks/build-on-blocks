@@ -31,9 +31,9 @@ const Page = () => {
       </div>
       <div className="flex flex-col gap-4 items-center justify-center">
         <h2 className="text-center text-3xl font-medium max-w-3xl text-gray-900 dark:text-gray-50 sm:text-6xl">
-          Advanced Payroll,{" "}
+          Confidential Payments,{" "}
           <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
-            Privacy Modules
+            for everyone.
           </span>
         </h2>
         <p className="max-w-[700px] w-full text-lg  text-center">
