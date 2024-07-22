@@ -400,7 +400,7 @@ export const Header = ({ authenticated, address, smartAccountAddress }) => {
       <div className="text-xl text-black/70 flex items-center gap-2 md:hidden">
         {truncateAddress(smartAccountAddress)}
         <div onClick={() => copyAddress(smartAccountAddress)}>
-          <CopyIcon className="text-black/40 hover:text-black hover:scale-110 transition-all ease-in-out duration-300 w-4" />
+          <CopyIcon className="text-black/40 hover:text-black hover:scale-110 transition-all ease-in-out duration-300 w-5" />
         </div>
       </div>
 
@@ -414,7 +414,10 @@ export const Header = ({ authenticated, address, smartAccountAddress }) => {
           <LogOutIcon />
           Logout
         </Button>
-        <div className="hidden md:flex cursor-none">
+        <div className="hidden md:flex items-center justify-center gap-2 cursor-none">
+        <div onClick={() => copyAddress(smartAccountAddress)}>
+            <CopyIcon className="text-black/40 hover:text-black hover:scale-110 transition-all ease-in-out duration-300 w-5" />
+          </div>
           <DropDown
             authenticated={authenticated}
             address={smartAccountAddress}
@@ -468,9 +471,9 @@ const DropDown = ({ authenticated, address }) => {
         >
           <div className="flex items-center gap-2 font-semibold cursor-none">
             {/* <GiToken className="" /> */}
-            <div onClick={() => copyAddress(smartAccountAddress)}>
+            {/* <div onClick={() => copyAddress(smartAccountAddress)}>
               <CopyIcon className="text-black/40 hover:text-black hover:scale-110 transition-all ease-in-out duration-300 w-4" />
-            </div>
+            </div> */}
             {truncateAddress(address)}
             {/* <p> {token === "0" ? "0" : token.slice(0, -18)}</p> */}
           </div>
