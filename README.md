@@ -11,6 +11,9 @@
 ## Protocol Arcitecture 
 ![image](https://github.com/TechieeGeeeks/PayRoll_Protocol/assets/99035115/f47981a2-395b-4c38-9f6b-47addb97732d)
 
+## Flow-Diagram:
+![flow.jpg](https://cdn.dorahacks.io/static/files/190774c66d9b0c61478004b4beda3ee1.jpg)
+
 ## Overview
 
 Payroll Protocol integrates **BICONOMY AA SDK, BASE or Polygon and INCO FHEVM** to enhance user experience while confidentially distributing money.
